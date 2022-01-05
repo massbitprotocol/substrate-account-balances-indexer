@@ -4,7 +4,7 @@ repository: ''
 name: 'account-balances'
 schema: ./schema.graphql
 network:
-  endpoint: 'wss://polkadot.api.onfinality.io/public-ws'
+  endpoint: 'wss://polkadot.api.massbit.io'
   networkIndexer: 'https://api.subquery.network/sq/subquery/dictionary-polkadot'
 dataSources:
   - name: main
